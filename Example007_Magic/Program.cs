@@ -35,7 +35,7 @@ while(count < 200)
         y = (y + yb) / 2;
     }
     
-    if (what == 1)
+    if (what == 2)
     {
         x = (x + xc) / 2;
         y = (y + yc) / 2;
