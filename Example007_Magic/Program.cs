@@ -16,11 +16,11 @@ Console.SetCursorPosition(xc, yc);
 Console.WriteLine("+");
 
 
-int x = xa, y = xc;
+int x = xa, y = ya;
 
 int count = 0;
 
-while(count < 200)
+while(count < 20000)
 {
     int what = new Random().Next(0, 3); // 0 1 2
     if (what == 0)
